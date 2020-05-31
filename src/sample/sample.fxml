@@ -7,11 +7,14 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.control.TextArea?>
-<FlowPane fx:controller="sample.Controller"
+<?import java.net.URL?>
+<FlowPane  fx:controller="sample.Controller" prefWidth="350" prefHeight="200"
           xmlns:fx="http://javafx.com/fxml" alignment="center" >
-    
-    <TextArea fx:id = "textArea"/>
-    <TextField fx:id="textField" text="text" prefWidth="300"/>
+    <stylesheets>
+        <URL value = "@/style.css"/>
+    </stylesheets>
+    <TextArea fx:id = "textArea" />
+    <TextField fx:id="textField" prefWidth="385"/>
     <Button fx:id="btnSendMessage" text="Отправить" onAction="#sendMsg"/>
 
 
