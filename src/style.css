@@ -1,0 +1,38 @@
+.root{
+-fx-background-color: #C0C0C0;
+}
+.button{
+-fx-background-color: #C0C0C0;
+-fx-background-radius: 5px 5px 5px 5px;
+
+}
+.button:hover {
+    -fx-background-color: #87CEFA;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+}
+
+.text-area{
+-fx-control-inner-background: #FFE4C4;
+-fx-text-fill: #2F4F4F;
+-fx-font-style: italic;
+-fx-font-size: 15;
+-fx-font-weight: bolder;
+-fx-control-inner-background-color: red;
+-fx-background-color:#FFE4C4;
+-fx-padding-bottom: 10px;
+-fx-background-radius: 15;
+-fx-border-radius: 15;
+
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
